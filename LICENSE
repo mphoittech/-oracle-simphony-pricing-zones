@@ -1,21 +1,35 @@
-MIT License
+# Oracle Simphony Cloud – Seasonal Pricing Zones
 
-Copyright (c) 2025 mphoittech
+This project simulates the strategy, logic, and tools used to implement a seasonal pricing model using Oracle Simphony Cloud's Enterprise Management Console (EMC). It showcases how IT architecture and operational efficiency were aligned to optimize pricing strategies for a restaurant group.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 🌟 Business Objective
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+To reduce manual overhead, pricing discrepancies, and enable revenue stability through a dynamic, zone-based pricing model covering:
+- Easter
+- Winter
+- Spring
+- Festive
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 🛠 Tools Used
+
+- **Oracle Simphony Cloud**
+- **Enterprise Management Console (EMC)**
+- **Zone Pricing Models**
+- **Deployment Scripts (via EMC)**
+- Python/C++ for simulation
+
+## 📊 Key Outcomes
+
+- 90%+ reduction in live pricing issues
+- Scalable model for future zone integration
+- Consistent customer pricing across outlets
+
+## 📁 Project Structure
+
+- `docs/` – Detailed architecture, process flows, and deployment guides.
+- `emc-config-samples/` – Sample data and checklist for price level configuration.
+- `simulator/` – Optional simulator to test zone-based pricing changes.
+
+## 🤝 Contributions
+
+This project is inspired by real-world deployments and does not expose any proprietary Nando’s data. Contributions to enhance simulation logic or documentation are welcome.
