@@ -11,3 +11,4 @@ _Describe the architecture for seasonal pricing zones in Oracle Simphony Cloud, 
 ## Diagram
 
 _Add your architecture diagram here._
+
