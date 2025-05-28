@@ -6,7 +6,7 @@ _Describe the architecture for seasonal pricing zones in Oracle Simphony Cloud, 
 
 - Oracle Simphony Cloud (EMC)
 - Zone Pricing Logic
-- Deployment Scripts and tasks
+- Deployment and tasks
 
 ## Diagram
 
