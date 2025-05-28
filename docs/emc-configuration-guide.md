@@ -1,14 +1,87 @@
-# Deployment Guide
+## 🧩 How to Deploy Seasonal Pricing Zones using Oracle Simphony Cloud EMC
 
-_How to deploy seasonal pricing zones using Oracle Simphony Cloud's EMC_
+### ✅ **Step 1: Prepare Price Level Configuration**
 
-## Steps
+* Ensure all required price levels for seasonal pricing are predefined.
+* These should align with the **Combo Pricing Document** and reflect all zone-specific variations.
 
-1. Prepare price level configuration
-2. Log in to EMC and navigate to the appropriate hierarchy level([100000] - 'SA Master'; Sub Zone = [1] - 'SA Menu').
-3. Zone Configuration "Add seasonal zones within the 'SA Master' zone {'Easter', 'Winter', 'Spring', 'Festive & B2W'}.
-4. From the highest hierarchy level, add the following 'Effective Groups' {[1]; 'Easter Price Increase', [2]; 'Winter Price Increase', [3]; 'Spring Price Increase',[4]; 'Festive Price Increase'}
-5. Set overrides to other 'Effective Groups' to expire from each Seasonal Zone, and leave only one active per identified Seasonal Zone.
-6. In the identified seasonal zone 'Menu Item Maintenance', highlight all in 'Definition Records' but 'Header Records' override records with 'Keep Existing Record' as method
-7. From the highest hierarchy level, 'Menu Item Maintenance', highlight all in 'Price Records' but 'Header Records', distribute records to each Seasonal Zone, and update 'Effective Groups' per identified Seasonal Zone.
-8. All the 'Definition Records', 'Price Records' will be removed from the enterprise level, and master records will remain. 
+---
+
+### ✅ **Step 2: Log in to EMC and Navigate Hierarchy**
+
+* Log in to **EMC**.
+* Navigate to:
+
+  ```
+  Enterprise Level → [100000] - SA Master
+                   → Sub-Zone [1] - SA Menu
+  ```
+
+---
+
+### ✅ **Step 3: Zone Configuration**
+
+* In the **'SA Master' Zone**, add the following **Seasonal Zones**:
+
+  * `Easter`
+  * `Winter`
+  * `Spring`
+  * `Festive & B2W` (Black Friday to Christmas)
+
+---
+
+### ✅ **Step 4: Configure Effective Groups**
+
+* At the **highest hierarchy level**, add the following:
+
+  ```
+  Effective Group [1] → Easter Price Increase
+  Effective Group [2] → Winter Price Increase
+  Effective Group [3] → Spring Price Increase
+  Effective Group [4] → Festive Price Increase
+  ```
+* Ensure only **one active Effective Group per Seasonal Zone**.
+* Set **overrides on other Effective Groups** to expire during each seasonal window.
+
+---
+
+### ✅ **Step 5: Override Definition Records (Menu Item Maintenance)**
+
+* Go to:
+
+  ```
+  EMC → Menu Item Maintenance → [Seasonal Zone]
+  ```
+* Select **all Definition Records** (excluding Header Records).
+* Use `Keep Existing Record` as your override method to preserve inherited logic.
+
+---
+
+### ✅ **Step 6: Distribute Price Records**
+
+* At the **Enterprise Level**:
+
+  * Go to `Menu Item Maintenance → Price Records`
+  * Select all (excluding Header Records).
+  * Distribute to each **Seasonal Zone**.
+  * Update each record’s **Effective Group** to match the corresponding Seasonal Zone.
+
+---
+
+### ✅ **Step 7: Clean-up**
+
+* Once distributed:
+
+  * All **Definition and Price Records** will be removed from Enterprise Level.
+  * Master (Header) records will remain intact.
+  * Seasonal zones now contain targeted pricing configurations.
+
+---
+
+## 📌 Final Notes:
+
+* **Deploy changes** to test outlets first (Halaal & non-Halaal) for validation.
+* **Monitor trade performance**, and adjust if needed.
+* Ensure each zone’s **start and end date** is configured according to the annual trading calendar.
+
+
