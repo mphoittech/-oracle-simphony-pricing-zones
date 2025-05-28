@@ -12,4 +12,4 @@ _Describe the architecture for seasonal pricing zones in Oracle Simphony Cloud, 
 
 _Add your architecture diagram here._
 
-![Oracle Simphony Cloud (EMC)](https://github.com/user-attachments/assets/fc70b117-aca5-4383-b6b8-29e6f35930a6)
+![Oracle Simphony Cloud (EMC)](https://github.com/user-attachments/assets/cc25aab2-ed88-4fa2-9e70-55d8662ea9ac)
