@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuDefinitions>
+    <Item id="1001" name="1/4 Chicken" category="Chicken" price="50.00" priceSequence="1" activeOnLevel="1"/>
+    <Item id="1001" name="1/4 Chicken" category="Chicken" price="50.00" priceSequence="2" activeOnLevel="2"/>
+    <Item id="1001" name="1/4 Chicken" category="Chicken" price="70.00" priceSequence="3" activeOnLevel="3"/>
+    <Item id="1001" name="1/4 Chicken" category="Chicken" price="65.00" priceSequence="4" activeOnLevel="4"/>
+    <Item id="1002" name="Full Chicken" category="Chicken" price="159.00" priceSequence="1" activeOnLevel="1"/>	
+    <Item id="1002" name="Full Chicken" category="Chicken" price="159.00" priceSequence="2" activeOnLevel="2"/>
+    <Item id="1002" name="Full Chicken" category="Chicken" price="180.00" priceSequence="3" activeOnLevel="3"/>	
+    <Item id="1002" name="Full Chicken" category="Chicken" price="169.00" priceSequence="4" activeOnLevel="4"/>
+    <Item id="1003" name="Peri Chips" category="Sides" price="34.00" priceSequence="1" activeOnLevel="1"/>
+    <Item id="1003" name="Peri Chips" category="Sides" price="34.00" priceSequence="2" activeOnLevel="2"/>
+    <Item id="1003" name="Peri Chips" category="Sides" price="44.00" priceSequence="3" activeOnLevel="3"/>
+    <Item id="1003" name="Peri Chips" category="Sides" price="41.00" priceSequence="4" activeOnLevel="4"/>
+    <Item id="1004" name="1/2 Chicken &amp; 1 Side" category="Combo" price="99.00" priceSequence="1" activeOnLevel="1"/>
+    <Item id="1004" name="1/2 Chicken &amp; 1 Side" category="Combo" price="99.00" priceSequence="2" activeOnLevel="2"/>
+    <Item id="1004" name="1/2 Chicken &amp; 1 Side" category="Combo" price="124.00" priceSequence="3" activeOnLevel="3"/>
+    <Item id="1004" name="1/2 Chicken &amp; 1 Side" category="Combo" price="119.00" priceSequence="4" activeOnLevel="4"/>
+</MenuDefinitions>

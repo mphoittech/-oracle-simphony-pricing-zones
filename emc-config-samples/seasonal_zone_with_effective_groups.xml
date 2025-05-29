@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZoneConfiguration>
+    <Zone name="Easter" active="true"/>
+	<DefinedEffectiveGroups>
+		<Group id="1" name="Easter Price Increase" active="true"/>
+		<Group id="2" name="Winter Price Increase" active="false"/>
+		<Group id="3" name="Spring Price Increase" active="false"/>
+		<Group id="4" name="Festive Price Increase" active="false"/>
+	</DefinedEffectiveGroups>
+    <Zone name="Winter" active="false"/>
+	<DefinedEffectiveGroups>
+		<Group id="1" name="Easter Price Increase" active="false"/>
+		<Group id="2" name="Winter Price Increase" active="true"/>
+		<Group id="3" name="Spring Price Increase" active="false"/>
+		<Group id="4" name="Festive Price Increase" active="false"/>
+	</DefinedEffectiveGroups>
+    <Zone name="Spring" active="false"/>
+	<DefinedEffectiveGroups>
+		<Group id="1" name="Easter Price Increase" active="false"/>
+		<Group id="2" name="Winter Price Increase" active="false"/>
+		<Group id="3" name="Spring Price Increase" active="true"/>
+		<Group id="4" name="Festive Price Increase" active="false"/>
+	</DefinedEffectiveGroups>
+    <Zone name="Festive" active="false"/>
+	<DefinedEffectiveGroups>
+		<Group id="1" name="Easter Price Increase" active="false"/>
+		<Group id="2" name="Winter Price Increase" active="false"/>
+		<Group id="3" name="Spring Price Increase" active="false"/>
+		<Group id="4" name="Festive Price Increase" active="true"/>
+	</DefinedEffectiveGroups>
+</ZoneConfiguration>
