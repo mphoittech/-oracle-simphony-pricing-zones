@@ -26,7 +26,7 @@
   * `Easter`
   * `Winter`
   * `Spring`
-  * `Festive & B2W` (Black Friday to Christmas)
+  * `Festive & B2W` (Back to Work)
 
 ---
 
@@ -45,7 +45,7 @@
 
 ---
 
-### ✅ **Step 5: Override Definition Records (Menu Item Maintenance)**
+### ✅ **Step 5: Seasonal Zone Override Definition Records (Menu Item Maintenance)**
 
 * Go to:
 
