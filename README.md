@@ -33,3 +33,9 @@ To reduce manual overhead, pricing discrepancies, and enable revenue stability t
 ## 🤝 Contributions
 
 This project is inspired by real-world deployments and does not expose any proprietary Nando’s data. Contributions to enhance simulation logic or documentation are welcome.
+
+## 👤 Author
+
+Mpho Matlala
+
+Enterprise Architect | Pricing Solutions Lead | Oracle Simphony Cloud
