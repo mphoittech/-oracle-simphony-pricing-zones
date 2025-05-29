@@ -26,7 +26,7 @@
 * Modify the **Effective Groups** in EMC:
 
   * Link them to the new **Seasonal Zone**
-  * Align menu items, price levels, and combo structures with current campaign pricing strategy.
+  * Align menu items, price levels, and combo structures with the incoming campaign pricing strategy.
 
 ---
 
@@ -44,15 +44,16 @@
 * Refer to the **Combo Pricing Document**
 * Configure:
 
-  * Base price levels , all channels
-  * Combo logic (e.g., add-A-Drink&SAVE, negative/positive bundled pricing)
+  * Base price levels, all channels (e.g., price of Coke for price sequence 1- 4)
+  * Combo logic (e.g., Combo Group: add-A-Drink&SAVE, Combo Meal (Menu Item Maintenance)negative/positive bundled pricing)
   
 ---
 
 #### 6. ✅ **Validate Pricing Updates**
 
 * Use test POS transactions at each test outlet:
-
+  
+  * Update the POS Database if not already been updated yet.
   * Confirm prices reflect updated zone and combo logic
   * Verify combo and individual item behavior at POS
 
@@ -62,7 +63,7 @@
 
 * Monitor trading performance and pricing behavior
 
-  * Look for discrepancies, configuration-defacts, or pricing issues
+  * Look for discrepancies, configuration defects, or pricing issues
 * Adjust EMC configuration as needed
 
   * Finalize for full deployment once testing is successful
