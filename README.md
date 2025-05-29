@@ -15,7 +15,7 @@ To reduce manual overhead, pricing discrepancies, and enable revenue stability t
 - **Oracle Simphony Cloud**
 - **Enterprise Management Console (EMC)**
 - **Zone Pricing Models**
-- **Deployment Scripts (via EMC)**
+- **Deployment Tasks (via EMC)**
 - Python/C++ for simulation
 
 ## 📊 Key Outcomes
