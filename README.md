@@ -28,7 +28,6 @@ To reduce manual overhead, pricing discrepancies, and enable revenue stability t
 
 - `docs/` – Detailed architecture, process flows, and deployment guides.
 - `emc-config-samples/` – Sample data and checklist for price level configuration.
-- `simulator/` – Optional simulator to test zone-based pricing changes.
 
 ## 🤝 Contributions
 
